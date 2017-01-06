@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eden Health</title>
+    <link>http://getedenhealth.com/</link>
+    <description>Recent content on Eden Health</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jul 2016 19:50:38 -0400</lastBuildDate>
+    <atom:link href="http://getedenhealth.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://getedenhealth.com/about/</link>
+      <pubDate>Tue, 26 Jul 2016 19:50:38 -0400</pubDate>
+      
+      <guid>http://getedenhealth.com/about/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+
+  &lt;div class=&#34;eden-section about&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;five columns&#34;&gt;
+        &lt;h4&gt;We&#39;re bringing healthcare to its roots: the relationship between the patient and the doctor.&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;six columns offset-by-one&#34;&gt;
+        &lt;p&gt;
+          The average primary care physician in the US supports 2,500 patients at any given time. Patients wait 18 days on average for a doctor&#39;s appointment, and physicians are able to see patients for only 11 minutes.
+        &lt;/p&gt;
+        &lt;p&gt;
+          We’re flipping the model on its head to provide better care while, at the same time, decreasing costs to employers and the health system at large.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;ten columns offset-by-one&#34;&gt;
+      &lt;h2&gt;Team&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/matt-mccambridge.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Matt McCambridge, CEO&lt;/p&gt;
+      &lt;p&gt;
+        Matt is Chief Executive Officer of Eden Health. Previously, he was a technology and software investor at Insight Venture Partners, a leading global venture capital and private equity firm that has raised over $13 billion. Matt is also a board member at Areté Education and leads their effort to build a boarding school for high school students in the South Bronx. Matt earned his bachelor&#39;s degree from Harvard University and taught at the Kennedy School of Government under Ron Heifetz.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/benjamin-stein.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Benjamin Stein, MD, CMO&lt;/p&gt;
+      &lt;p&gt;
+        Dr. Ben is Chief Medical Officer of Eden Health and a practicing physician. Previously, he was Lead Physician at GoHealth Urgent Care, helping the organization grow from zero to over thirty sites in the greater New York area. Before that, Dr. Ben was founder and CEO of Healthix, now the nations largest health information exchange. He has also worked as the Director of Clinical Systems at Northwell Health, the second largest not-for-profit health system in the US. Dr. Ben received his bachelor&#39;s degree in computer science from Brown University and his medical degree from Georgetown University School of Medicine.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/scott-sansovich.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Scott Sansovich, CPO&lt;/p&gt;
+      &lt;p&gt;
+        Scott is Chief Product Officer of Eden Health. Previously, he was a product manager at AppNexus, the advertising technology company based in New York City, and was an investment associate at the venture capital firm Cue Ball, where he focused on enterprise software. He also co-founded The Resume Drop, a recruiting platform that connected students at universities, including all eight Ivy League schools, to jobs in the technology sector. Scott earned his bachelor&#39;s from Harvard University.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/jonathan-stevens.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Jonathan Stevens, Data Analyst&lt;/p&gt;
+      &lt;p&gt;
+        Jonathan is a data analyst at Eden Health. He is responsible for population health analysis and analyses related to improvements in quality and value of care. Previously, he worked at the National Museum of Mathematics and as a private educator focusing on secondary and tertiary mathematics and economics education. Jonathan received his bachelor&#39;s degree in Applied Mathematics from Harvard University.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;ten columns offset-by-one&#34;&gt;
+      &lt;h2&gt;Advisory Board&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/aran-ron.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Aran Ron, MD&lt;/p&gt;
+      &lt;p&gt;
+      Aran Ron is a physician trained in internal medicine at New York Hospital. He is one of the original founders and until recently the Chief Medical Officer of Oscar Health Plan and of Pager. He is the former President and Chief Operating Officer of Group Health Inc.,  a $3 billion health plan, was Medical Director at Oxford Health Plan and at New York Downtown Hospital. He served as CEO of Partners Health Plan (a special needs MLTC plan) and an Operating Partner at Bessemer Venture Partners.
+      &lt;/p&gt;
+      &lt;div id=&#34;aran-ron&#34; style=&#34;display:none;&#34;&gt;
+        &lt;p&gt;
+          His background includes board certification and licensure in internal medicine, degrees in business and public health. He has published articles in medical journals, and serves on local and national committees, and on the board of director’s and advisory boards including Group Health Inc (term ended 3/12), formerly Data Driven Delivery Systems, Nalari, Dunn Meadow Pharmacy, Israel BioMed Fund, LifeForce Capital Fund as well as non-for-profits St Christopher Inc and Metropolitan Council on Poverty.
+        &lt;/p&gt;
+        &lt;p&gt;
+          He is on the URAC accreditation committee and lectures at Cornell Medical College (where he received a best teacher of the year award) and Columbia Business School.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;a onclick=&#34;toggle(&#39;aran-ron&#39;, this)&#34;&gt;+ Show more&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/mary-ellen-connington.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Mary Ellen Connington, MA, RN&lt;/p&gt;
+      &lt;p&gt;
+      Mary Ellen Connington is an experienced senior healthcare executive, recognized for leadership in health plans, hospitals and provider organizations. She is Chief Operating Officer at Advocate Care Physicians, the largest DSRIP in New York state. She was most recently SVP for Quality and Medical Management at Oscar, where she was responsible for the company’s Quality/UM/Case and Disease Management programs.
+      &lt;/p&gt;
+      &lt;div id=&#34;mary-ellen-connington&#34; style=&#34;display:none;&#34;&gt;
+        &lt;p&gt;
+        She was SVP of Managed Care at The Visiting Nurse Service of New York, leading the $3B revenue organization’s strategic plan for interfacing with the health insurance industry, and was also VP of Managed Care at EmblemHealth.
+        &lt;/p&gt;
+        &lt;p&gt;
+        She earned her MA from Columbia University (summa cum laude) and her BSN (cum laude) from College of Mount Saint Vincent.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;a onclick=&#34;toggle(&#39;mary-ellen-connington&#39;, this)&#34;&gt;+ Show more&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/laurel-pickering.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Laurel Pickering&lt;/p&gt;
+      &lt;p&gt;
+      Laurel Pickering is a leader and visionary, devoted to transforming healthcare at both regional and national levels. As President &amp; CEO of Northeast Business Group on Health (NEBGH), Ms. Pickering has built an employer-led coalition of healthcare leaders and other stakeholders with the mission of empowering members to drive excellence and value in healthcare and the patient experience. NEBGH currently has 170 members comprised of national and global self-insured employers based in New York, New Jersey, Connecticut and Massachusetts; plus national health plans, major consulting organizations, regional hospital systems and other key stakeholders.
+      &lt;/p&gt;
+      &lt;div id=&#34;laurel-pickering&#34; style=&#34;display:none;&#34;&gt;
+        &lt;p&gt;
+        Under Laurel&#39;s leadership, NEBGH has become one of the most active and influential healthcare-focused business coalitions in the country, focused on moving toward a value-based delivery system. NEBGH delivers educational and training programs for benefits executives, user groups designed to help them improve health plan and PBM performance, and guidance on private exchanges via the Private Exchange Evaluation Collaborative (PEEC), of which Ms. Pickering is a founder.
+        &lt;/p&gt;
+        &lt;p&gt;
+        Multi-payer efforts initiated by NEBGH include reducing unnecessary hospital readmissions, piloting an integrated approach to behavioral health in primary care in NYC, and developing innovative solutions to obesity, diabetes and other workplace health concerns through NEBGH’s Solutions Center.  Based on these efforts, NEBGH has been enlisted by New York State’s Department of Health to play a key role in promoting a new advanced primary care model funded by a federal State Innovation Model (SIM) grant.
+        &lt;/p&gt;
+        &lt;p&gt;
+        On the national level, Ms. Pickering is Chair of the Board of Directors of The Leapfrog Group, and serves on the Board of National Quality Forum (NQF) and National Business Coalition on Health (NBCH). Regionally, she is Chair of the Board of Directors of the NEBGH subsidiary HealthPass, a health insurance exchange for small businesses.
+        &lt;/p&gt;
+        &lt;p&gt;
+        Ms. Pickering received her BA in Anthropology from SUNY Albany and MPH from Emory University.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;a onclick=&#34;toggle(&#39;laurel-pickering&#39;, this)&#34;&gt;+ Show more&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/jeffrey-sachs.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Jeffrey Sachs&lt;/p&gt;
+      &lt;p&gt;
+      Jeffrey Sachs is a leading health care policy expert who has worked with hospitals, health systems, health plans, behavioral health organizations, technology companies, unions, federal and state governments, and others for more than three decades.
+      &lt;/p&gt;
+      &lt;div id=&#34;jeffrey-sachs&#34; style=&#34;display:none;&#34;&gt;
+        &lt;p&gt;
+        Dr. Sachs was one of the architects of the recent New York State Medicaid Redesign Team process and its accompanying $8 billion Medicaid waiver. The result was one of the nation’s most innovative and comprehensive Medicaid overhauls.
+        &lt;/p&gt;
+        &lt;p&gt;
+        In 2014, Dr. Sachs negotiated an agreement between the California Hospital Association and the SEIU/UHW which resulted in the establishment of a $100 million advocacy fund to support Medi-Cal. He also provided guidance on the development of California’s 2010 $10 billion Medicaid waiver.
+        &lt;/p&gt;
+        &lt;p&gt;
+        In 2009, Dr. Sachs participated on President Obama’s Health Policy Advisory Committee on federal health care reform. He facilitated a joint letter signed by AHIP, PhARMA, AMA, AdvaMed, AHA and SEIU expressing support for health care reform initiatives that would decrease the annual health care spending growth rate by 1.5 percentage points as part of the negotiations around the ACA.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;a onclick=&#34;toggle(&#39;jeffrey-sachs&#39;, this)&#34;&gt;+ Show more&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- container --&gt;
+
+&lt;script&gt;
+  function toggle(id, link) {
+    var el = document.getElementById(id);
+    if ( el.style.display != &#39;none&#39; ) {
+      el.style.display = &#39;none&#39;;
+      link.innerHTML = &#39;+ Show more&#39;
+    }
+    else {
+      el.style.display = &#39;&#39;;
+      link.innerHTML = &#39;- Show less&#39;
+    }
+  }
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://getedenhealth.com/contact/</link>
+      <pubDate>Tue, 26 Jul 2016 19:50:38 -0400</pubDate>
+      
+      <guid>http://getedenhealth.com/contact/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+
+  &lt;div class=&#34;eden-section&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;h1&gt;Contact us&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;five columns&#34;&gt;
+        General &amp;mdash; &lt;a href=&#34;mailto:info@getedenhealth.com&#34;&gt;info@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Employers &amp;mdash; &lt;a href=&#34;mailto:employers@getedenhealth.com&#34;&gt;employers@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Members &amp;mdash; &lt;a href=&#34;mailto:members@getedenhealth.com&#34;&gt;members@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Partnerships &amp;mdash; &lt;a href=&#34;mailto:partners@getedenhealth.com&#34;&gt;partners@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Media &amp;mdash; &lt;a href=&#34;mailto:media@getedenhealth.com&#34;&gt;media@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Careers &amp;mdash; &lt;a href=&#34;mailto:careers@getedenhealth.com&#34;&gt;careers@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Address&lt;/strong&gt;&lt;br&gt;
+        Eden Health, Inc.&lt;br&gt;
+        442 Broadway, 2nd Floor&lt;br&gt;
+        New York, NY 10013&lt;br&gt;
+        &lt;a href=&#34;https://www.google.com/maps/dir//442+Broadway,+New+York,+NY+10013/@40.7200541,-74.0016612,16.72z/data=!4m16!1m7!3m6!1s0x89c2598a264f8db7:0x9b2e342b7093666b!2s442+Broadway,+New+York,+NY+10013!3b1!8m2!3d40.7200729!4d-74.0008091!4m7!1m0!1m5!1m1!1s0x89c2598a264f8db7:0x9b2e342b7093666b!2m2!1d-74.0008091!2d40.7200729&#34; target=&#34;_blank&#34;&gt;
+          Directions
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;seven columns&#34;&gt;
+        &lt;iframe class=&#34;u-full-width&#34; style=&#34;background-color:#f0f0f0&#34; src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.580997019633!2d-74.0016612100705!3d40.72005407190789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a264f8db7%3A0x9b2e342b7093666b!2s442+Broadway%2C+New+York%2C+NY+10013!5e0!3m2!1sen!2sus!4v1483724500504&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- container --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Employees</title>
+      <link>http://getedenhealth.com/howitworks/employees/</link>
+      <pubDate>Tue, 26 Jul 2016 19:50:38 -0400</pubDate>
+      
+      <guid>http://getedenhealth.com/howitworks/employees/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row eden-hero&#34;&gt;
+    &lt;div class=&#34;seven columns&#34;&gt;
+      &lt;h1&gt;Healthcare like you’ve never experienced it before.&lt;/h1&gt;
+      &lt;p&gt;As an Eden Health member, you have a team of doctors and nurses at your side. You can see us both in-person and virtually, at no cost and as often as you’d like.&lt;/p&gt;
+      &lt;p&gt;With Eden Health, you also have unlimited access to our virtual health concierge, who will help answer, track down, and coordinate anything related to your health.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eden-desktop three columns offset-by-two&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/iphone.jpg&#34; /&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row eden-section&#34;&gt;
+    &lt;div class=&#34;six columns&#34;&gt;
+      &lt;div class=&#34;eden-mobile&#34;&gt;
+        &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/office.jpg&#34; /&gt; 
+      &lt;/div&gt;
+      &lt;h2&gt;Modern, personal healthcare&lt;/h2&gt;
+      &lt;p&gt;Eden Health members enjoy unlimited visits at our beautiful offices - with no out of pocket costs.&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;We provide the full range of primary care services:&lt;/strong&gt;&lt;/p&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/thermometer-icon.jpg&#34;&gt;&lt;span&gt;Preventative and chronic care&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/bandage-icon.jpg&#34;&gt;&lt;span&gt;Acute care and minor injuries&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/behavioral-health-icon.jpg&#34;&gt;&lt;span&gt;Behavioral health&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/allergen-icon.jpg&#34;&gt;&lt;span&gt;Allergies and allergic reactions&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/ekg-icon.jpg&#34;&gt;&lt;span&gt;Annual physicals&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/heart-icon.jpg&#34;&gt;&lt;span&gt;Women&#39;s health&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/skin-bump-icon.jpg&#34;&gt;&lt;span&gt;Skin conditions&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&#34;service&#34;&gt;&lt;img src=&#34;http://getedenhealth.com/img/beaker-icon.jpg&#34;&gt;&lt;span&gt;Labs and screenings&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eden-desktop six columns&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/office.jpg&#34; /&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row eden-section&#34;&gt;
+    &lt;div class=&#34;three columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/iphone.jpg&#34; /&gt; 
+    &lt;/div&gt;
+    &lt;div class=&#34;seven columns offset-by-one&#34;&gt;
+      &lt;h2&gt;Virtual healthcare concierge&lt;/h2&gt;
+      &lt;p&gt;&lt;strong&gt;Some examples of requests we can handle:&lt;/strong&gt;&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&#34;Can I see the doctor today between 2pm and 5pm?”&lt;/li&gt;
+        &lt;li&gt;“Do I have the flu or just a cold?”&lt;/li&gt;
+        &lt;li&gt;“My physical therapy isn’t working. Do I need surgery?”&lt;/li&gt;
+        &lt;li&gt;“My ortho said I need to get an MRI. Where should I go?”&lt;/li&gt;
+        &lt;li&gt;“I forgot when my last tetanus shot was. Can you track it down?”&lt;/li&gt;
+        &lt;li&gt;“Can you send my medical records to my endocrinologist?”&lt;/li&gt;
+        &lt;li&gt;“Should I be worried about this rash?”&lt;/li&gt;
+        &lt;li&gt;“Who’s the best physical therapist in Brooklyn?”&lt;/li&gt;
+        &lt;li&gt;“Where should my wife go for an OB/GYN visit?”&lt;/li&gt;
+        &lt;li&gt;“I’ve had a cough since I starting taking the meds. Is that normal?&#34;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- container --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Employers</title>
+      <link>http://getedenhealth.com/howitworks/employers/</link>
+      <pubDate>Tue, 26 Jul 2016 19:50:38 -0400</pubDate>
+      
+      <guid>http://getedenhealth.com/howitworks/employers/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row eden-hero&#34;&gt;
+    &lt;div class=&#34;seven columns&#34;&gt;
+      &lt;div class=&#34;eden-mobile&#34;&gt;
+        &lt;img src=&#34;http://getedenhealth.com/img/clinician-crest.jpg&#34; /&gt; 
+      &lt;/div&gt;
+      &lt;h1&gt;We make healthcare work for businesses.&lt;/h1&gt;
+      &lt;p&gt;Eden Health’s comprehensive approach meaningfully improves health outcomes for employees and reduces the total cost of care to employers.&lt;/p&gt;
+      &lt;p&gt;For common conditions, our doctors and nurses treat patients both in-person and virtually. For more complex conditions requiring a specialist’s expertise, we refer to high-value providers who have a proven track record for high quality and high value.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eden-desktop five columns&#34;&gt;
+      &lt;img src=&#34;http://getedenhealth.com/img/clinician-crest.jpg&#34; /&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class=&#34;eden-section&#34; id=&#34;cost-savings&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;twelve columns&#34;&gt;
+        &lt;h2&gt;Save on healthcare costs&lt;/h2&gt;
+        &lt;p&gt;Eden Health removes financial and logistical barriers to receiving care. By improving &lt;strong&gt;access&lt;/strong&gt; and &lt;strong&gt;convenience&lt;/strong&gt; for employees, we make it easy for employees to receive the right care at the right time at the right place.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;spacer&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce specialist overuse&lt;/p&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce time spent seeking and coordinating care&lt;/p&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce urgent care and ER use&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce waste from market pricing failures&lt;/p&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce wellness-sensitive medical events&lt;/p&gt;
+        &lt;p&gt;&lt;span class=&#34;arrow&#34;&gt;&amp;#x25BE;&lt;/span&gt;Reduce use of expensive brand name medications&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row eden-section&#34;&gt;
+    &lt;div class=&#34;six columns&#34;&gt;
+      &lt;div class=&#34;eden-mobile&#34;&gt;
+        &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/employer-dashboard.jpg&#34; /&gt; 
+      &lt;/div&gt;
+      &lt;h2&gt;Population Health Management&lt;/h2&gt;
+      &lt;p&gt;Surface prevalent conditions within the employee base. We also work with employers to implement high-impact programming that targets the specific issues that your employees are facing.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eden-desktop six columns&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/employer-dashboard.jpg&#34; /&gt; 
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row eden-section&#34;&gt;
+    &lt;div class=&#34;five columns&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/curation-map.jpg&#34; /&gt; 
+    &lt;/div&gt;
+    &lt;div class=&#34;six columns offset-by-one&#34;&gt;
+      &lt;h2&gt;Curated, value-based referrals&lt;/h2&gt;
+      &lt;p&gt;We use industry-leading pricing and quality data to curate our referrals to providers that have a proven track record of high quality. These value-based referrals drive significant cost savings and improve patient satisfaction.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- container --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
