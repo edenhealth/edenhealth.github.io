@@ -6,8 +6,20 @@
     <description>Recent content on Eden Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2017 19:50:38 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 20 Mar 2017 19:50:38 -0400</lastBuildDate>
     <atom:link href="http://getedenhealth.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eden Health Mobile app</title>
+      <link>http://getedenhealth.com/app/</link>
+      <pubDate>Mon, 20 Mar 2017 19:50:38 -0400</pubDate>
+      
+      <guid>http://getedenhealth.com/app/</guid>
+      <description>&lt;script&gt;
+  window.location = &#39;https://itunes.apple.com/us/app/eden-health/id1201859973?ls=1&amp;mt=8&#39;;
+&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Consent to Treatment 0.0.01</title>
