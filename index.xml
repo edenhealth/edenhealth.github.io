@@ -15,7 +15,9 @@
       <pubDate>Mon, 20 Mar 2017 19:50:38 -0400</pubDate>
       
       <guid>http://getedenhealth.com/app/</guid>
-      <description>&lt;script&gt;
+      <description>&lt;p&gt;Redirecting...&lt;/p&gt;
+
+&lt;script&gt;
   window.location = &#39;https://itunes.apple.com/us/app/eden-health/id1201859973?ls=1&amp;mt=8&#39;;
 &lt;/script&gt;
 </description>
@@ -263,7 +265,7 @@
       &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/matt-mccambridge.jpg&#34; /&gt;
     &lt;/div&gt;
     &lt;div class=&#34;eight columns&#34;&gt;
-      &lt;p class=&#34;name&#34;&gt;Matt McCambridge, CEO&lt;/p&gt;
+      &lt;p class=&#34;name&#34;&gt;Matt McCambridge, Chief Executive Officer&lt;/p&gt;
       &lt;p&gt;
         Matt is Chief Executive Officer of Eden Health. Previously, he was a technology and software investor at Insight Venture Partners, a leading global venture capital and private equity firm that has raised over $13 billion. Matt is also a board member at Areté Education and leads their effort to build a boarding school for high school students in the South Bronx. Matt earned his bachelor&#39;s degree from Harvard University and taught at the Kennedy School of Government under Ron Heifetz.
       &lt;/p&gt;
@@ -275,7 +277,7 @@
       &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/benjamin-stein.jpg&#34; /&gt;
     &lt;/div&gt;
     &lt;div class=&#34;eight columns&#34;&gt;
-      &lt;p class=&#34;name&#34;&gt;Benjamin Stein, MD, CMO&lt;/p&gt;
+      &lt;p class=&#34;name&#34;&gt;Benjamin Stein, MD, Chief Medical Officer&lt;/p&gt;
       &lt;p&gt;
         Dr. Ben is Chief Medical Officer of Eden Health and a practicing physician. Previously, he was Lead Physician at GoHealth Urgent Care, helping the organization grow from zero to over thirty sites in the greater New York area. Before that, Dr. Ben was founder and CEO of Healthix, now the nations largest health information exchange. He has also worked as the Director of Clinical Systems at Northwell Health, the second largest not-for-profit health system in the US. Dr. Ben received his bachelor&#39;s degree in computer science from Brown University and his medical degree from Georgetown University School of Medicine.
       &lt;/p&gt;
@@ -287,9 +289,21 @@
       &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/scott-sansovich.jpg&#34; /&gt;
     &lt;/div&gt;
     &lt;div class=&#34;eight columns&#34;&gt;
-      &lt;p class=&#34;name&#34;&gt;Scott Sansovich, CPO&lt;/p&gt;
+      &lt;p class=&#34;name&#34;&gt;Scott Sansovich, Chief Product Officer&lt;/p&gt;
       &lt;p&gt;
         Scott is Chief Product Officer of Eden Health. Previously, he was a product manager at AppNexus, the advertising technology company based in New York City, and was an investment associate at the venture capital firm Cue Ball, where he focused on enterprise software. He also co-founded The Resume Drop, a recruiting platform that connected students at universities, including all eight Ivy League schools, to jobs in the technology sector. Scott earned his bachelor&#39;s from Harvard University.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row person&#34;&gt;
+    &lt;div class=&#34;two columns offset-by-one&#34;&gt;
+      &lt;img class=&#34;u-full-width&#34; src=&#34;http://getedenhealth.com/img/headshots/lauren-goh.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;eight columns&#34;&gt;
+      &lt;p class=&#34;name&#34;&gt;Lauren Goh, RN, Clinical Operations Manager&lt;/p&gt;
+      &lt;p&gt;
+        Lauren is Clinical Operations Manager at Eden Health and a practicing Registered Nurse. Lauren has experience nursing in both inpatient and outpatient medical and surgical settings, including Harvard’s teaching hospital Beth Israel Deaconess Medical Center. In addition to earning a Bachelor of Science in Nursing, Lauren also earned a Bachelor of Arts degree from Harvard University, where she studied Human Evolutionary Biology and dedicated her free time to a student mental health organization.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -445,27 +459,53 @@
 
   &lt;div class=&#34;eden-section&#34;&gt;
     &lt;div class=&#34;row&#34;&gt;
-      &lt;h1&gt;Contact us&lt;/h1&gt;
+      &lt;h1&gt;For patients&lt;/h1&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row&#34;&gt;
-      &lt;div class=&#34;five columns&#34;&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
+        &lt;strong&gt;Eden Health NoMad&lt;/strong&gt;&lt;br&gt;
+        161 Madison Avenue&lt;br&gt;
+        Suite 9NE&lt;br&gt;
+        New York, NY 10016&lt;br&gt;
+        &lt;br&gt;
+        Monday - Friday: 7:30am - 7:30pm&lt;br&gt;
+        Saturday: 9:00am - 1:00pm&lt;br&gt;
+        &lt;br&gt;
+
+        Support &amp;mdash; &lt;a href=&#34;mailto:support@getedenhealth.com&#34;&gt;support@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Care Team &amp;mdash; &lt;a href=&#34;mailto:careteam@getedenhealth.com&#34;&gt;careteam@getedenhealth.com&lt;/a&gt;&lt;br&gt;
+        Phone &amp;mdash; (917) 261-4414&lt;br&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
+        &lt;div class=&#34;map&#34; style=&#34;max-width:100%&#34;&gt;
+          &lt;img style=&#34;max-width:100%&#34;  src=&#34;https://api.mapbox.com/v4/mapbox.emerald/pin-l-heart+285A98(-73.983359,40.746738)/-73.983359,40.746738,17/600x400@2x.png?access_token=pk.eyJ1Ijoic2xzanIiLCJhIjoiY2lwMzZ1ODh3MDBpcHRybTNrbXkwYmRmdCJ9.icyfUPTzS0h4zYjbk3i2ZQ&#34; alt=&#34;Mapbox Map of -73.983359,40.746738&#34;&gt;
+          &lt;div style=&#34;font-size:11px&#34;&gt;
+            © &lt;a href=&#39;https://www.mapbox.com/map-feedback/&#39;&gt;Mapbox&lt;/a&gt; © &lt;a href=&#39;http://www.openstreetmap.org/copyright&#39;&gt;OpenStreetMap contributors&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&#34;eden-section&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;h1&gt;General&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
         General &amp;mdash; &lt;a href=&#34;mailto:info@getedenhealth.com&#34;&gt;info@getedenhealth.com&lt;/a&gt;&lt;br&gt;
         Employers &amp;mdash; &lt;a href=&#34;mailto:employers@getedenhealth.com&#34;&gt;employers@getedenhealth.com&lt;/a&gt;&lt;br&gt;
         Members &amp;mdash; &lt;a href=&#34;mailto:members@getedenhealth.com&#34;&gt;members@getedenhealth.com&lt;/a&gt;&lt;br&gt;
         Partnerships &amp;mdash; &lt;a href=&#34;mailto:partners@getedenhealth.com&#34;&gt;partners@getedenhealth.com&lt;/a&gt;&lt;br&gt;
         Media &amp;mdash; &lt;a href=&#34;mailto:media@getedenhealth.com&#34;&gt;media@getedenhealth.com&lt;/a&gt;&lt;br&gt;
         Careers &amp;mdash; &lt;a href=&#34;mailto:careers@getedenhealth.com&#34;&gt;careers@getedenhealth.com&lt;/a&gt;&lt;br&gt;
-        &lt;br&gt;
-        &lt;strong&gt;Address&lt;/strong&gt;&lt;br&gt;
-        Eden Health, Inc.&lt;br&gt;
-        442 Broadway, 2nd Floor&lt;br&gt;
-        New York, NY 10013&lt;br&gt;
-        &lt;a href=&#34;https://www.google.com/maps/dir//442+Broadway,+New+York,+NY+10013/@40.7200541,-74.0016612,16.72z/data=!4m16!1m7!3m6!1s0x89c2598a264f8db7:0x9b2e342b7093666b!2s442+Broadway,+New+York,+NY+10013!3b1!8m2!3d40.7200729!4d-74.0008091!4m7!1m0!1m5!1m1!1s0x89c2598a264f8db7:0x9b2e342b7093666b!2m2!1d-74.0008091!2d40.7200729&#34; target=&#34;_blank&#34;&gt;
-          Directions
-        &lt;/a&gt;
       &lt;/div&gt;
-      &lt;div class=&#34;seven columns&#34;&gt;
-        &lt;iframe class=&#34;u-full-width&#34; style=&#34;background-color:#f0f0f0&#34; src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.580997019633!2d-74.0016612100705!3d40.72005407190789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a264f8db7%3A0x9b2e342b7093666b!2s442+Broadway%2C+New+York%2C+NY+10013!5e0!3m2!1sen!2sus!4v1483724500504&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;div class=&#34;six columns&#34;&gt;
+        &lt;strong&gt;Eden Health HQ&lt;/strong&gt;&lt;br&gt;
+        442 Broadway&lt;br&gt;
+        2nd Floor&lt;br&gt;
+        New York, NY 10013&lt;br&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
