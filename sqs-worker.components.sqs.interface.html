@@ -4,6 +4,7 @@
 
 Arg Schemas:
 [(connection :- connection-spec) (message :- received-message-spec)]
+
 Returns:
 :any
 </pre></div></div><div class="public anchor" id="var-configure-queue"><h3>configure-queue</h3><div class="usage"><code>(configure-queue queue)</code></div><div class="doc"><pre class="plaintext">Configures queue with deduplication and deadletter queue.
@@ -11,36 +12,42 @@ Note: non-FIFO queue will throw an exception as only FIFO queues are supported a
 
 Arg Schemas:
 [(queue :- :string)]
+
 Returns:
 :any
 </pre></div></div><div class="public anchor" id="var-connection-spec"><h3>connection-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div><div class="public anchor" id="var-delete-queue"><h3>delete-queue</h3><div class="usage"><code>(delete-queue connection)</code></div><div class="doc"><pre class="plaintext">Deletes a queue. Don't do this unless you know you should.
 
 Arg Schemas:
 [(connection :- connection-spec)]
+
 Returns:
 :any
 </pre></div></div><div class="public anchor" id="var-init.21"><h3>init!</h3><div class="usage"><code>(init! queue)</code></div><div class="doc"><pre class="plaintext">Initializes an SQS connection to queue.
 
 Arg Schemas:
 [(queue :- :string)]
+
 Returns:
 [:map [:client [:inst? com.amazonaws.services.sqs.AmazonSQSClient]] [:queue-name :string] [:queue-url :string]]
 </pre></div></div><div class="public anchor" id="var-nack"><h3>nack</h3><div class="usage"><code>(nack connection message)</code></div><div class="doc"><pre class="plaintext">Nacks a message.
 
 Arg Schemas:
 [(connection :- connection-spec) (message :- received-message-spec)]
+
 Returns:
 :any
 </pre></div></div><div class="public anchor" id="var-receive"><h3>receive</h3><div class="usage"><code>(receive connection)</code></div><div class="doc"><pre class="plaintext">Recieves up to 10 messages from the queue or none after a timeout is reached.
 
 Arg Schemas:
 [(connection :- connection-spec)]
+
 Returns:
 [:sequential [:map [:id :string] [:receipt-handle :string] [:source-queue :string] [:queue-name :string] [:attributes :map] [:message-attributes :map] [:body :string] [:body-md5 :string]]]
 </pre></div></div><div class="public anchor" id="var-received-message-spec"><h3>received-message-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div><div class="public anchor" id="var-send"><h3>send</h3><div class="usage"><code>(send connection message-group-id message)</code></div><div class="doc"><pre class="plaintext">Sends a message to connection with message-group-id (required by FIFO queues).
 
 Arg Schemas:
 [(connection :- connection-spec) (message-group-id :- :string) (message :- :map)]
+
 Returns:
 [:map [:id :string] [:body-md5 :string]]
 </pre></div></div><div class="public anchor" id="var-sent-message-spec"><h3>sent-message-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div></div></body></html>
