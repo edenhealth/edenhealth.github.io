@@ -4,60 +4,90 @@
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (where-clause :- [:vector :any])]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-execute.21"><h3>execute!</h3><div class="usage"><code>(execute! connectable honey-sql)</code></div><div class="doc"><pre class="plaintext">Executes honey-sql query.
 
 Arg Schemas:
 [(connectable :- db-spec) (honey-sql :- :map)]
+Returns:
+[:sequential :map]
 </pre></div></div><div class="public anchor" id="var-execute-one.21"><h3>execute-one!</h3><div class="usage"><code>(execute-one! connectable honey-sql)</code></div><div class="doc"><pre class="plaintext">Executes honey-sql query and returns one result.
 
 Arg Schemas:
 [(connectable :- db-spec) (honey-sql :- :map)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-execute-raw.21"><h3>execute-raw!</h3><div class="usage"><code>(execute-raw! connectable sql-params)</code></div><div class="doc"><pre class="plaintext">Executes raw jdbc sql in the form [&lt;query-str&gt; param1 param2 ..].
 
 Arg Schemas:
 [(connectable :- db-spec) (sql-params :- sql-params-spec)]
+Returns:
+[:sequential :map]
 </pre></div></div><div class="public anchor" id="var-get-all"><h3>get-all</h3><div class="usage"><code>(get-all connectable table)</code></div><div class="doc"><pre class="plaintext">Returns all rows from table.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword)]
+Returns:
+[:sequential :map]
 </pre></div></div><div class="public anchor" id="var-get-by"><h3>get-by</h3><div class="usage"><code>(get-by connectable table column value)</code></div><div class="doc"><pre class="plaintext">Queries table for rows where column matches value.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (column :- :keyword) (value :- :any)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-insert.21"><h3>insert!</h3><div class="usage"><code>(insert! connectable table key-map)</code></div><div class="doc"><pre class="plaintext">Inserts key-map into table.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (key-map :- :map)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-insert-multi.21"><h3>insert-multi!</h3><div class="usage"><code>(insert-multi! connectable table key-maps)</code></div><div class="doc"><pre class="plaintext">Inserts key-maps into table.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (key-maps :- [:vector :map])]
+Returns:
+[:sequential :map]
 </pre></div></div><div class="public anchor" id="var-query"><h3>query</h3><div class="usage"><code>(query connectable honey-sql)</code></div><div class="doc"><pre class="plaintext">Queries using honey-sql query.
 
 Arg Schemas:
 [(connectable :- db-spec) (honey-sql :- :map)]
+Returns:
+[:sequential :map]
 </pre></div></div><div class="public anchor" id="var-query-one"><h3>query-one</h3><div class="usage"><code>(query-one connectable honey-sql)</code></div><div class="doc"><pre class="plaintext">Queries one row using honey-sql query.
 
 Arg Schemas:
 [(connectable :- db-spec) (honey-sql :- :map)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-sql-params-spec"><h3>sql-params-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div><div class="public anchor" id="var-start.21"><h3>start!</h3><div class="usage"><code>(start! db-conf)</code></div><div class="doc"><pre class="plaintext">Starts the db component.
 
 Arg Schemas:
 [(db-conf :- db-conf-spec)]
+Returns:
+[:map [:connectable [:inst? com.zaxxer.hikari.HikariDataSource]]]
 </pre></div></div><div class="public anchor" id="var-stop.21"><h3>stop!</h3><div class="usage"><code>(stop! db)</code></div><div class="doc"><pre class="plaintext">Stops db.
 
 Arg Schemas:
 [(db :- db-spec)]
+Returns:
+:nil
 </pre></div></div><div class="public anchor" id="var-update.21"><h3>update!</h3><div class="usage"><code>(update! connectable table key-map where-clause)</code></div><div class="doc"><pre class="plaintext">Updates table rows matching where-clause with key-map.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (key-map :- :map) (where-clause :- [:vector :any])]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-upsert.21"><h3>upsert!</h3><div class="usage"><code>(upsert! connectable table on-conflict key-map)</code></div><div class="doc"><pre class="plaintext">Upserts key-map into table on columns in on-conflict.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (on-conflict :- [:vector :keyword]) (key-map :- :map)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-upsert-multi.21"><h3>upsert-multi!</h3><div class="usage"><code>(upsert-multi! connectable table on-conflict key-maps)</code></div><div class="doc"><pre class="plaintext">Upserts key-maps into table on columns in on-conflict.
 
 Arg Schemas:
 [(connectable :- db-spec) (table :- :keyword) (on-conflict :- [:vector :keyword]) (key-maps :- [:vector :map])]
+Returns:
+[:sequential :map]
 </pre></div></div></div></body></html>

@@ -7,8 +7,12 @@
 
 Arg Schemas:
 [(routes :- [:vector :any]) ({:keys [host port middleware], :or {host "0.0.0.0", port 4000, middleware (default-middleware)}} :- init-opts-map)]
+Returns:
+[:inst? org.eclipse.jetty.server.Server]
 </pre></div></div><div class="public anchor" id="var-stop.21"><h3>stop!</h3><div class="usage"><code>(stop! server)</code></div><div class="doc"><pre class="plaintext">Stops a jetty server.
 
 Arg Schemas:
 [(server :- jetty-server-spec)]
+Returns:
+:nil
 </pre></div></div></div></body></html>

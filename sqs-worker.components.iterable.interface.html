@@ -4,16 +4,24 @@
 
 Arg Schemas:
 [(user-id :- [:or :string :uuid]) (email :- :string) (data-fields :- :map)]
+Returns:
+[:map ["userId" :string] ["email" :string] ["dataFields" :map]]
 </pre></div></div><div class="public anchor" id="var-api-spec"><h3>api-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div><div class="public anchor" id="var-get-users"><h3>get-users</h3><div class="usage"><code>(get-users api)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(api :- api-spec)]
+Returns:
+[:vector :map]
 </pre></div></div><div class="public anchor" id="var-init.21"><h3>init!</h3><div class="usage"><code>(init! base-url key)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(base-url :- :string) (key :- :string)]
+Returns:
+[:map [:base-url :string] [:key :string]]
 </pre></div></div><div class="public anchor" id="var-upsert-user.21"><h3>upsert-user!</h3><div class="usage"><code>(upsert-user! api user)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(api :- api-spec) (user :- user-spec)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-user-spec"><h3>user-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div></div></body></html>

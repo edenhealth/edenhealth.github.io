@@ -13,8 +13,12 @@ They must use the `async-job-message-group-id` for now.
 
 Arg Schemas:
 [(queue :- :string)]
+Returns:
+[:map [:done-channel [:inst? clojure.core.async.impl.channels.ManyToManyChannel]] [:message-channel [:inst? clojure.core.async.impl.channels.ManyToManyChannel]]]
 </pre></div></div><div class="public anchor" id="var-stop.21"><h3>stop!</h3><div class="usage"><code>(stop! consumer)</code></div><div class="doc"><pre class="plaintext">Stops an SQS consumer
 
 Arg Schemas:
 [(consumer :- consumer-spec)]
+Returns:
+:nil
 </pre></div></div></div></body></html>

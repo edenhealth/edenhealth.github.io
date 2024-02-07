@@ -4,40 +4,60 @@
 
 Arg Schemas:
 [(api :- api-spec)]
+Returns:
+[:vector :map]
 </pre></div></div><div class="public anchor" id="var-fetch-patient"><h3>fetch-patient</h3><div class="usage"><code>(fetch-patient api hint-id)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(api :- api-spec) (hint-id :- :string)]
+Returns:
+:map
 </pre></div></div><div class="public anchor" id="var-fetch-patients"><h3>fetch-patients</h3><div class="usage"><code>(fetch-patients api)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(api :- api-spec)]
+Returns:
+[:vector :map]
 </pre></div></div><div class="public anchor" id="var-get-company"><h3>get-company</h3><div class="usage"><code>(get-company db column value)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (column :- :keyword) (value :- :any)]
+Returns:
+[:map [:id {:optional true} :uuid] [:eden-id :uuid] [:hint-id {:optional true} :string] [:name :string] [:status :string] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div><div class="public anchor" id="var-get-patient"><h3>get-patient</h3><div class="usage"><code>(get-patient db column value)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (column :- :keyword) (value :- :any)]
+Returns:
+[:map [:id {:optional true} :uuid] [:hint-id {:optional true} :string] [:eden-id {:optional true} :uuid] [:company-id :uuid] [:external-id :string] [:email {:optional true} :string] [:first-name :string] [:last-name :string] [:dob :time/local-date] [:zip {:optional true} :string] [:type :string] [:membership-status :string] [:is-subscriber :boolean] [:division {:optional true} :string] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div><div class="public anchor" id="var-init.21"><h3>init!</h3><div class="usage"><code>(init! base-url key)</code></div><div class="doc"><pre class="plaintext">Initializes api with base-url and key.
 
 Arg Schemas:
 [(base-url :- :string) (key :- :string)]
+Returns:
+[:map [:base-url :string] [:key :string]]
 </pre></div></div><div class="public anchor" id="var-upsert-company.21"><h3>upsert-company!</h3><div class="usage"><code>(upsert-company! db on-key company)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (on-key :- [:enum :id :hint-id :eden-id]) (company :- postgres/company-spec)]
+Returns:
+[:map [:id {:optional true} :uuid] [:eden-id :uuid] [:hint-id {:optional true} :string] [:name :string] [:status :string] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div><div class="public anchor" id="var-upsert-membership.21"><h3>upsert-membership!</h3><div class="usage"><code>(upsert-membership! db on-key membership)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (on-key :- [:enum :id :hint-id]) (membership :- postgres/membership-spec)]
+Returns:
+[:map [:id {:optional true} :uuid] [:hint-id {:optional true} :string] [:company-id :uuid] [:start-date :time/local-date] [:end-date :time/local-date] [:enrollment-status :string] [:status :string] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div><div class="public anchor" id="var-upsert-membership-patient.21"><h3>upsert-membership-patient!</h3><div class="usage"><code>(upsert-membership-patient! db on-key membership-patient)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (on-key :- [:enum :id :hint-id]) (membership-patient :- postgres/membership-patient-spec)]
+Returns:
+[:map [:id {:optional true} :uuid] [:hint-id {:optional true} :string] [:membership-id :uuid] [:patient-id :uuid] [:member-type :string] [:start-date :time/local-date] [:end-date :time/local-date] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div><div class="public anchor" id="var-upsert-patient.21"><h3>upsert-patient!</h3><div class="usage"><code>(upsert-patient! db on-key patient)</code></div><div class="doc"><pre class="plaintext">
 
 Arg Schemas:
 [(db :- database/db-spec) (on-key :- [:enum :id :hint-id :eden-id]) (patient :- postgres/patient-spec)]
+Returns:
+[:map [:id {:optional true} :uuid] [:hint-id {:optional true} :string] [:eden-id {:optional true} :uuid] [:company-id :uuid] [:external-id :string] [:email {:optional true} :string] [:first-name :string] [:last-name :string] [:dob :time/local-date] [:zip {:optional true} :string] [:type :string] [:membership-status :string] [:is-subscriber :boolean] [:division {:optional true} :string] [:created-at {:optional true} :time/local-date-time] [:updated-at {:optional true} :time/local-date-time]]
 </pre></div></div></div></body></html>

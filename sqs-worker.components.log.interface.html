@@ -8,4 +8,6 @@
 Arg Schemas:
 []
 [({:keys [level appenders output-fn], :or {level :info, appenders core/default-appenders, output-fn output-json-fn}} :- opts-schema)]
+Returns:
+[:=&gt; [:cat [:map [:level {:optional true} [:or :keyword :string]] [:appenders {:optional true} :map] [:output-fn {:optional true} [:function [:=&gt; [:cat :map] :string]]]]] :map]
 </pre></div></div><div class="public anchor" id="var-opts-schema"><h3>opts-schema</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div><div class="public anchor" id="var-output-json-fn"><h3>output-json-fn</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div></div></body></html>

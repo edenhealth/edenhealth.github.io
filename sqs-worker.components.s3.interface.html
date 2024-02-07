@@ -4,9 +4,13 @@
 
 Arg Schemas:
 [(client :- s3-client-spec) (bucket-name :- :string) (key :- :string)]
+Returns:
+:string
 </pre></div></div><div class="public anchor" id="var-init.21"><h3>init!</h3><div class="usage"><code>(init!)</code></div><div class="doc"><pre class="plaintext">Initializes an S3 client.
 </pre></div></div><div class="public anchor" id="var-put.21"><h3>put!</h3><div class="usage"><code>(put! client bucket-name key content)</code></div><div class="doc"><pre class="plaintext">Uploads contents to key in bucket-name.
 
 Arg Schemas:
 [(client :- s3-client-spec) (bucket-name :- :string) (key :- :string) (content :- :string)]
+Returns:
+:string
 </pre></div></div><div class="public anchor" id="var-s3-client-spec"><h3>s3-client-spec</h3><div class="usage"></div><div class="doc"><pre class="plaintext"></pre></div></div></div></body></html>
