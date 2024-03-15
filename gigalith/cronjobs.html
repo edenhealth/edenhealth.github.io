@@ -12,23 +12,45 @@
 <p>Jobs should use environment variables and <code>mount</code> for managing dependency initialization.</p>
 <pre><code>(ns gigalith.cli.jobs.example
   (:require [mount.core :as mount]
-            [gigalith.environ.interface :as environ]))
+            [gigalith.database.interface :as database]
+            [gigalith.environ.interface :as environ]
+            [gigalith.log.interface :as log]))
 
 ...
 
 (def env-spec
   [:map
-   [:VAR :string]])
+   [:PSQL_HOST :string]
+   [:PSQL_PORT :int]
+   [:PSQL_DB :string]
+   [:PSQL_USER :string]
+   [:PSQL_PASSWORD :string]
+   [:PSQL_SSL {:optional true} [:boolean {:default false}]]])
    
 (declare env)
+(declare logging)
+(declare postgres-db)
 
 (mount/defstate env
   :start (environ/init! env-spec))
+
+(mount/defstate logging
+  :start (log/init!))
+  
+(mount/defstate postgres-db
+  :start (database/start! {:host     (:PSQL_HOST env)
+                           :port     (:PSQL_PORT env)
+                           :db       (:PSQL_DB env)
+                           :user     (:PSQL_USER env)
+                           :password (:PSQL_PASSWORD env)
+                           :ssl      (:PSQL_SSL env)})
+  :stop (database/stop! db))
 </code></pre>
 <p>The main entry to a job should be a function named <code>run</code>. That function will be responsible for starting the mounted states, logging job-specific information, performing the functions of the job, and finally stopping the mounted states. Additionally, if the job requires a “bookmark”, the job is responsible for retrieving and setting the “bookmark”.</p>
 <pre><code>(ns gigalith.cli.jobs.example
   (:require [mount.core :as mount]
             [gigalith.log.interface :as log]
+            [gigalith.utils.interface.time :as time]
             [gigalith.cli.jobs :as jobs]))
 
 ...
@@ -37,11 +59,12 @@
   [{:keys [example]}]
   (mount/start)
   (log/with-context {:example example}
-    (let [bookmark (jobs/get-last-run postgres-db "example")]
+    (let [bookmark (jobs/get-last-run postgres-db "example")
+          now      (time/local-date-time-now)]
       (log/info "Doing the thing")
       (do-the-thing bookmark)
       (log/info "Did the thing")
-      (jobs/set-last-run postgres-db "example")))
+      (jobs/set-last-run postgres-db "example" now)))
   (mount/stop))
 </code></pre>
 <p>With the job’s <code>run</code> fn completed, the job must finally be registered with the <code>cli.jobs/run</code> multimethod. In the <code>cli.core</code> namespace, declare a <code>defmethod</code> for <code>cli.jobs/run</code> with the dispatch being a keyword of the job name (i.e. <code>:iterable/update-users</code>).</p>
@@ -67,4 +90,9 @@
                 :command  "example -x this-is-an-example"
                 :secrets  ["app-postgres"]}]}
 </code></pre>
+<h2><a href="#deploying-jobs" id="deploying-jobs"></a>Deploying Jobs</h2>
+<p>Jobs are deployed in the <code>deploy-toybox</code> step of the stage and production deploys. Jobs are built from the job.edn files. The <code>build-cronjobs</code> build.clj function is responsible for creating the job definition as well as the <code>kustomization.yaml</code> file that sets the image during apply. To build the yaml files locally:</p>
+<p><code>clj -T:build build-cronjobs :file jobs.edn</code></p>
+<p>Jobs are output to <code>./cronjobs</code>.</p>
+<p>During deploys the generated job files are avaliable as artifacts.</p>
 </div></div></div></body></html>
